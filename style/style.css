@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+*{
+    font-family: poppins;
+    transition: 0.2s;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+body{
+    margin: 0px;
+    background-color: #222;
+    overflow-x: hidden;
+}
+nav{
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+    position: absolute;
+    
+    right: 0px;
+    left: 0px;
+}
+nav #links a{
+    padding: 0px 10px 0px 10px;
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+nav #links a:hover{
+    color: #FFC632;
+}
+a:hover{
+    color: #FFC632;
+}
+#introHero{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(80deg, #5b4ec6, #a988e6, #bb88e6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#introHero .img{
+    height: 391px;
+    width: 585.7px;
+    background-image: url(../images/Mac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 40vh;
+}
+#brief{
+    height: 40vh;
+    color: white;
+    font-weight: 500;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #1A1A20;   
+    padding: 10px 10% 10px 10%;
+}
+#skills .card{
+    width: 180px;
+    height: 195px;
+    background-color: #1D1D1D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#devImage1{
+    background-image: url('../images/icons/desktop.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}#devImage2{
+    background-image: url('../images/icons/game.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}#devImage3{
+    background-image: url('../images/icons/design.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}#devImage4{
+    background-image: url('../images/icons/pen.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#skills .card:hover{
+    background-color: #FFC632;
+}
+#skills .card .image{
+    width: 60px;
+    height: 60px;
+}
+#langSkills{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    background-color: #1A1A20;  
+    overflow-x: scroll;
+}
+#Languages{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-right: auto;
+    background-color: #1A1A20;  
+    margin-left: auto;
+}
+.lang{
+    width: 200px;
+    height: 197.37px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.lang:hover{
+    background-color: #333;
+}
+#lang1{
+    background-image: url('../images/icons/html.png');
+}
+#lang2{
+    background-image: url('../images/icons/css.png');
+}
+#lang3{
+    background-image: url('../images/icons/js.png');
+}
+#lang4{
+    background-image: url('../images/icons/py.png');
+}
+#lang5{
+    background-image: url('../images/icons/cpp.png');
+}
+#lang6{
+    background-image: url('../images/icons/flutter.png');
+}
+#lang7{
+    background-image: url('../images/icons/sass.png');
+}
+#lang8{
+    background-image: url('../images/icons/pug.png');
+}
+#myWork{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    margin-right: auto;
+    flex-wrap: wrap;
+    margin-left: auto;
+    justify-content: space-around;
+}
+
+#myWork .card{
+    width: 300px;
+    padding: 20px;
+    min-height: 250px;
+    max-height: max-content;
+    background: #22272E;
+    border: 2px solid #3C434C;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+a:-webkit-any-link {text-decoration:none}
+
+#myWork .card:hover{
+    transform: scale(1.9);
+    transform:rotateZ(2deg)
+}
+#gallary{
+    height: 700px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #444;
+}
+#aboutSect{
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+#aboutSect .img{
+    height: 100%;
+    width: 50%;
+    background-image: url('../images/Mac.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#aboutSect #aboutme{
+    height: max-content;
+    width: 45%;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    height: 200px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(146, 146, 146);
+    background-color: rgb(15, 14, 37);
+    height: 100px;
+    justify-content: space-around;
+}
+@media (max-width: 700px) {
+    #aboutSect{
+        flex-direction: column;
+        width: max-content;
+        margin: 30px auto 30px auto;
+    }
+    #aboutSect .img{
+        height: 300px;
+        width: 300px;
+        background-image: url(../images/Mac.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #aboutSect #aboutme{
+        width: 300px;
+    }
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 550px) {
+    h1{
+        text-align: center;
+    }    
+    nav{
+        justify-content: space-around;
+    }
+    nav #links{
+        display: none;
+    }
+}
